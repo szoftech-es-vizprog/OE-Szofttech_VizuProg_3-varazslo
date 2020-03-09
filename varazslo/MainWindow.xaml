@@ -1,0 +1,51 @@
+﻿<Window x:Class="varazslo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:varazslo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="7*"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="add" Content="Hozzáadás" HorizontalAlignment="Left" Margin="10,24,0,0" VerticalAlignment="Top" Width="121" FontSize="20" Click="add_Click"/>
+        <Button x:Name="delet" Content="Törlés" HorizontalAlignment="Left" Margin="136,24,0,0" VerticalAlignment="Top" Width="76" FontSize="20" Click="delet_Click"/>
+        <ListBox HorizontalAlignment="Left" Height="100" Margin="10,60,0,0" VerticalAlignment="Top" Width="772" Grid.ColumnSpan="2" x:Name="katalogus" >
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="100" />
+                            <ColumnDefinition Width="100" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="{Binding Nev}" />
+                        <ProgressBar Grid.Column="1" Minimum="0" Maximum="10" Value="{Binding Ero}" />
+                        <ProgressBar Grid.Column="2" Minimum="0" Maximum="10" Value="{Binding Varazsero}" />
+                    </Grid>  
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Button x:Name="fight" Content="Csata" HorizontalAlignment="Left" Margin="10,165,0,0" VerticalAlignment="Top" Width="75" FontSize="18" Click="fight_Click"/>
+        <StackPanel HorizontalAlignment="Left" Height="100" Margin="10,198,0,0" VerticalAlignment="Top" Width="772" Grid.ColumnSpan="2">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                   <ColumnDefinition Width="100" />
+                   <ColumnDefinition Width="100" />
+                   <ColumnDefinition Width="100" />
+                   <ColumnDefinition Width="100" />
+                   <ColumnDefinition Width="100" />
+                </Grid.ColumnDefinitions>
+                <TextBlock x:Name="harcos1Nev" Grid.Column="0" />
+                <TextBlock x:Name="harcos2Nev" Grid.Column="4" TextAlignment="Right" />
+                <TextBlock x:Name="korSzam" Grid.Column="2" TextAlignment="Center" />
+                <ProgressBar x:Name="harcos1Elet" Minimum="0" Maximum="100" Grid.Column="1"  />
+                <ProgressBar x:Name="harcos2Elet" Minimum="0" Maximum="100" Grid.Column="3"  />
+            </Grid>
+        </StackPanel>
+
+    </Grid>
+</Window>

@@ -1,0 +1,15 @@
+D:\szoft_tech_l2\3\l3\varazslo\varazslo\bin\Debug\varazslo.exe.config
+D:\szoft_tech_l2\3\l3\varazslo\varazslo\bin\Debug\varazslo.exe
+D:\szoft_tech_l2\3\l3\varazslo\varazslo\bin\Debug\varazslo.pdb
+D:\szoft_tech_l2\3\l3\varazslo\varazslo\obj\Debug\varazslo.csprojAssemblyReference.cache
+D:\szoft_tech_l2\3\l3\varazslo\varazslo\obj\Debug\MainWindow.g.cs
+D:\szoft_tech_l2\3\l3\varazslo\varazslo\obj\Debug\App.g.cs
+D:\szoft_tech_l2\3\l3\varazslo\varazslo\obj\Debug\varazslo_MarkupCompile.cache
+D:\szoft_tech_l2\3\l3\varazslo\varazslo\obj\Debug\varazslo_MarkupCompile.lref
+D:\szoft_tech_l2\3\l3\varazslo\varazslo\obj\Debug\MainWindow.baml
+D:\szoft_tech_l2\3\l3\varazslo\varazslo\obj\Debug\varazslo.g.resources
+D:\szoft_tech_l2\3\l3\varazslo\varazslo\obj\Debug\varazslo.Properties.Resources.resources
+D:\szoft_tech_l2\3\l3\varazslo\varazslo\obj\Debug\varazslo.csproj.GenerateResource.cache
+D:\szoft_tech_l2\3\l3\varazslo\varazslo\obj\Debug\varazslo.csproj.CoreCompileInputs.cache
+D:\szoft_tech_l2\3\l3\varazslo\varazslo\obj\Debug\varazslo.exe
+D:\szoft_tech_l2\3\l3\varazslo\varazslo\obj\Debug\varazslo.pdb
